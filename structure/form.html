@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cosine Similiarity</title>
+    </head>
+    <body>
+        <h1>
+            Please input the two sentences to find out similarity scores
+        </h1>
+        <form method = "POST">
+            DOCUMENT 1 : <textarea name='text1' rows="5" cols="30"></textarea><br><br>
+            DOCUMENT 2 : <textarea name="text2" rows="5" cols="30"></textarea><br><br><br>
+            <input type="submit">
+        </form>
+        {% if final %}
+        <h2>
+            The cosine similarity between '{{ text1}}' and '{{ text2}}'  is {{ final }}!
+        </h2>
+        {% else %}
+        <h2>
+            Locha hai bro "{{text1}}" and "{{text2}}   and {{final}}"
+        </h2>
+        {% endif %}
+        
+    </body>
+</html>
