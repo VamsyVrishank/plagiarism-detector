@@ -27,8 +27,8 @@ def my_from_post():
     text2 = request.form['text2'].lower()
 
     # texts are then coverted to stop words
-    processed_text1 = ''.join([word for word in text1.split() if word not in stop_words])
-    processed_text2 = ''.join([word2 for word2 in text2.split() if word2 not in stop_words])
+    processed_text1 = ' '.join([word for word in text1.split() if word not in stop_words])
+    processed_text2 = ' '.join([word2 for word2 in text2.split() if word2 not in stop_words])
     corpus = [processed_text1 , processed_text2]
 
     #The processed texts are then vectorised and similarity matrix is then calculated
