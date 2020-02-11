@@ -1,0 +1,93 @@
+* {
+  outline: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Courier, monospace;
+}
+body {
+  background: #333
+    url(https://static.tumblr.com/maopbtg/a5emgtoju/inflicted.png) repeat;
+  flex-direction: column;
+}
+
+.fun {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  color: antiquewhite;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#paper {
+  color: #fff;
+  font-size: 20px;
+}
+#margin {
+  margin-left: 12px;
+  margin-bottom: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#text {
+  margin: auto;
+  width: 500px;
+  overflow: hidden;
+  background-color: #fff;
+  color: #222;
+  font-family: Courier, monospace;
+  font-weight: normal;
+  font-size: 24px;
+  resize: none;
+  line-height: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 45px;
+  padding-bottom: 34px;
+  background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png),
+    url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+  background-repeat: repeat-y, repeat;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 20px;
+  height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0px -1px 0px #000000;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border-top: 1px solid #fff;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  background-color: #62add6;
+  background-image: url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+  background-repeat: repeat-x;
+}
